@@ -34,18 +34,17 @@ mathjax:            true  # enables support for mathjax - set to false to disabl
 ####?? author_gravatar:
 <a href="https://ko.gravatar.com/">https://ko.gravatar.com/<a><br>
 
---
+
 <img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/1.png" width:50%; height:auto>
---
+
 <img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/2.png" width:50%; height:auto>
---
+
 <img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/3.png" width:50%; height:auto>
---
+
 <img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/4.png" width:50%; height:auto>
---
+
 <img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/5.png" width:50%; height:auto>
---
+
 <img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/6.png" width:50%; height:auto>
---
+
 <img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/7.png" width:50%; height:auto>
---
