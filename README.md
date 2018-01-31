@@ -55,7 +55,7 @@ front-end 개발자 입니다.
 #### ?? author_gravatar:
 <a href="https://ko.gravatar.com/">https://ko.gravatar.com/<a>
 
-
+<!--
 ![alt text](https://s3.ap-northeast-2.amazonaws.com/c-a-party/1.png)
 --
 ![alt text](https://s3.ap-northeast-2.amazonaws.com/c-a-party/2.png)
@@ -69,5 +69,5 @@ front-end 개발자 입니다.
 ![alt text](https://s3.ap-northeast-2.amazonaws.com/c-a-party/6.png)
 --
 ![alt text](https://s3.ap-northeast-2.amazonaws.com/c-a-party/7.png)
---
+-- -->
 
