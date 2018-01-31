@@ -31,21 +31,47 @@ mathjax:            true  # enables support for mathjax - set to false to disabl
 - github_username:    Choonick # Your GitHub username here
 - url:                https://Choonick.github.io # main url
 
-####?? author_gravatar:
-<a href="https://ko.gravatar.com/">https://ko.gravatar.com/<a><br>
+### ../about.md
+- you can edit profile
 
+```
+---
+layout: page
+title: About
+---
+
+- Angularjs 
+- html
+- css
+- javascript
+- jQuery
+- bootstrap 
+- ionic
+
+front-end 개발자 입니다.
+ 
+```
+
+#### ?? author_gravatar:
+<a href="https://ko.gravatar.com/">https://ko.gravatar.com/<a>
+
+![alt text](https://s3.ap-northeast-2.amazonaws.com/c-a-party/1.png)
 --
-<img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/1.png" width:50%; height:auto>
+![alt text](https://s3.ap-northeast-2.amazonaws.com/c-a-party/2.png)
 --
-<img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/2.png" width:50%; height:auto>
+![alt text](https://s3.ap-northeast-2.amazonaws.com/c-a-party/3.png)
 --
-<img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/3.png" width:50%; height:auto>
+![alt text](https://s3.ap-northeast-2.amazonaws.com/c-a-party/4.png)
 --
-<img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/4.png" width:50%; height:auto>
+![alt text](https://s3.ap-northeast-2.amazonaws.com/c-a-party/5.png)
 --
-<img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/5.png" width:50%; height:auto>
+![alt text](https://s3.ap-northeast-2.amazonaws.com/c-a-party/6.png)
 --
-<img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/6.png" width:50%; height:auto>
+![alt text](https://s3.ap-northeast-2.amazonaws.com/c-a-party/7.png)
 --
-<img src="https://s3.ap-northeast-2.amazonaws.com/c-a-party/7.png" width:50%; height:auto>
---
+
+
+
+
+
+
