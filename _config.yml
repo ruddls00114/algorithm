@@ -5,13 +5,13 @@ description:        "commit algorithm party"
 #google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 
 # Author Info
-author_name:        'JONG HOON PARK' # Your name here
-author_email:       wecube.1@gmail.com # Your email here
+author_name:        'JEONG KYOUNG IN' # Your name here
+author_email:       kkmm114@gmail.com # Your email here
 author_gravatar:    f24685c9a69bf27342f45f3c14d8457d # Your Gravatar md5 hash here for logo
-github_username:    Choonick # Your GitHub username here
+github_username:    ruddls00114 # Your GitHub username here
 
 # Site Settings
-url:                https://Choonick.github.io # main url
+url:                https://ruddls00114.github.io # main url
 baseurl:            # for gh-pages
 permalink:          /notes/:title # Post permalink
 timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
