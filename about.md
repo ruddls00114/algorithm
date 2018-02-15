@@ -1,6 +1,2 @@
----
-layout: page
-title: About
----
-
- 
+algorithm 
+CAP 블로그
