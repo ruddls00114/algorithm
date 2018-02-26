@@ -1,6 +1,6 @@
 
 
-문제번호 : 10818 번
+문제번호 : 10818  번
 
 문제링크 : [https://www.acmicpc.net/problem/2448](https://www.acmicpc.net/problem/10818)
 
