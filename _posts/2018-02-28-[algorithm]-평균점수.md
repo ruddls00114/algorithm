@@ -1,4 +1,7 @@
 
+
+문제번호 : 10039 번
+
 문제링크 : [https://www.acmicpc.net/problem/10039](https://www.acmicpc.net/problem/10039)
 
 ----------
@@ -12,11 +15,13 @@
 
 
 ## 입력 ##
-입력은 총 5줄로 이루어져 있고, 원섭이의 점수, 세희의 점수, 상근이의 점수, 숭이의 점수, 강수의 점수가 순서대로 주어진다.
-점수는 모두 0점 이상, 100점 이하인 5의 배수이다. 따라서, 평균 점수는 항상 정수이다.
+입력은 총 5줄로 이루어져 있고, 원섭이의 점수, 세희의 점수, 상근이의 점수, 숭이의 점수, 강수의 점수가 순서대로 주어진다. 점수는 모두 0점 이상, 100점 이하인 5의 배수이다. 따라서, 평균 점수는 항상 정수이다.
+
 
 ## 출력 ##
 첫째 줄에 학생 5명의 평균 점수를 출력한다.
+
+
 ## 예제 ##
 ### 입력 ###
 	10
@@ -24,30 +29,25 @@
 	100
 	30
 	95
-
 ### 출력 ###
-    68
- 
+	68
 ### 힌트 ###
-
 숭과 원섭이는 40점 미만이고, 보충학습에 참여할 예정이기 때문에 40점을 받게 된다. 따라서, 점수의 합은 340점이고, 평균은 68점이 된다.
 
 ## 풀이 ##
 
-
 ## 코드 ##
- 
-    #include<iostream>
-    #define IOFAST() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
-    using namespace std;
-    
-    int main(){
-    	int n = 5,input,sum=0;
-    	while (n--){
-    		cin >> input;
-    		if (input < 40) input = 40;
-    		sum += input;
-    	}
-    	cout << (sum / 5);
-    
-    }
+	#include<iostream>
+	#define IOFAST() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+	using namespace std;
+	
+	int main(){
+		int n = 5,input,sum=0;
+		while (n--){
+			cin >> input;
+			if (input < 40) input = 40;
+			sum += input;
+		}
+		cout << (sum / 5);
+	
+	}
