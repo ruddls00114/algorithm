@@ -25,28 +25,26 @@ N개의 정수가 주어진다. 이 때, 최솟값과 최댓값을 구하는 프
 2. 입력받을 수의 갯수 n을 입력 받고 n만큼 반복문을 돌림
 3. 반복문 안에서는 
 	- 비교할 값 input을 입력받음
-	- min보다 크다 -> max보다 큰지 검사한 후 크다면 input값은  max값이 된다.
-	- min보다 작다 -> input값은 min이 된다.
+	- max보다 크다 -> input값은 max 된다.
+	- min보다 작다 -> input값은 min 된다.
+4. min max 출력
+ 
+
 
 ## C언어  코드 ##
-
     #include<iostream>
     using namespace std;
     
     int main(){
-    	int n, input,min = 1000000, max = -1000000;
+    	int n, input, min = 1000000, max = -1000000;
     	cin >> n;
     	while (n--)
     	{
     		cin >> input;
-    		if (input > min){
-    			if (input > max)
-    				max = input;
-    		}
-    		else{
+    		if (input < min)
     			min = input;
-    		}
+    		if (input>max)
+    			max = input;
     	}
-    		cout << min <<' '<< max << endl;
+    	cout << min << ' ' << max << endl;
     }
-    
