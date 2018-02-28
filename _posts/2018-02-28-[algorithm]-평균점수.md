@@ -1,7 +1,4 @@
 
-
-문제번호 : 10039  번
-
 문제링크 : [https://www.acmicpc.net/problem/10039](https://www.acmicpc.net/problem/10039)
 
 ----------
