@@ -2,7 +2,7 @@
 
 문제번호 : 10818번
 
-문제링크 : [https://www.acmicpc.net/problem/2448](https://www.acmicpc.net/problem/10818)
+문제링크 : [https://www.acmicpc.net/problem/10818](https://www.acmicpc.net/problem/10818)
 
 ----------
 
