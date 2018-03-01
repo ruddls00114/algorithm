@@ -42,21 +42,40 @@
 
 
 ## 풀이 ##
-
+1. 배열 a 원소 8개를 입력받음
+2. 배열 b={1,2,3,4,5,6,7,8} / c={8,7,6,5,4,3,2,1} 
+3. arr함수
+	- 배열의 길이 8만큼 반복문을 돌려 두 배열의 원소를 비교 
+	- 같으면 true 다르면 false 
 
 ## 코드 ##
- 
     #include<iostream>
-    #define IOFAST() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+    #include<string>
+
     using namespace std;
-    
+    bool arr(int a[], int b[]);
     int main(){
-    	int n = 5,input,sum=0;
-    	while (n--){
-    		cin >> input;
-    		if (input < 40) input = 40;
-    		sum += input;
-    	}
-    	cout << (sum / 5);
     
+    	//2029- 음계
+    	int i=0,a[8], b[] = { 1, 2, 3, 4, 5, 6, 7, 8 }, c[] = {8,7,6,5,4,3,2,1};
+    	string temp="";
+    	for (i = 0; i < 8; i++){
+    		cin >> a[i];
+    	}
+    	if (arr(a, b)) cout << "ascending";
+    	else if (arr(a, c)) cout << "descending";
+    	else cout << "mixed";
+    }
+    
+    bool arr(int a[], int b[]){
+    
+    	int i = 0;
+    	while (i< 8){
+    		if (a[i] != b[i]){
+    			break;
+    		}
+    		i++;
+    	}
+    	if (i == 8) return true;
+    	else return false;
     }
