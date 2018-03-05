@@ -5,16 +5,19 @@
 ## 동적 계획법 ##
 >: 중복해서 계산되는 부분을 배열에 저장했다가 필요할 때 꺼내 쓰는 방식
 >: 어떤 계산값을 메모해뒀다가 필요할때 쓴다.
->:Overlapping Subproblem + Optimal Substructure 두가지 다 만족해야한다.
-> Overlapping Subproblem:문제를 작은 문제로 쪼개서 푸는 것.풀이는 같은 방식.
-> Optimal Substructure:문제의 정답을 작은문제의 정답에서 구할 수 있다.
-> 문제풀이 방법에는 top-down과 bottom-up이 있다.---> 아래에서 설
+>:Overlapping Subproblem + Optimal Substructure 두가지 다 만족해야한다.  
+> Overlapping Subproblem:문제를 작은 문제로 쪼개서 푸는 것.풀이는 같은 방식.  
+> Optimal Substructure:문제의 정답을 작은문제의 정답에서 구할 수 있다.  
+> 문제풀이 방법에는 top-down과 bottom-up이 있다.---> 아래에서 설명  
+
 ## 피보나치 수열  ##
 >: f(n) = f(n-1) + f(n-2) (n>=2, f(0)=0|f(1)=1)을 만족하는 수열
 >문제 N번째 피보나치 수를 구하기 위해서는 작은문제인 n-1번째 피보나치수와 n-2번째 피보나치수를 구하는 문제를 풀어야하고, .....1번째 피보나치수구하는문제와 0번째 피보나치수를 구하는 문제를 풀어야한다.( 작게 쪼개짐 )
->
+
+
 > BOJ 2747번 [https://www.acmicpc.net/problem/2747](https://www.acmicpc.net/problem/2747)
-> 
+
+
 >1)반복문을 사용한코드
 
 	#include<iostream>
@@ -92,7 +95,7 @@ DP Table을 사용한다. 반복될 계산의 값을 구해놓고 이 값을 배
  2. 작은 문제를 푼다
  3. 작은 문제를 풀었으니, 이제 문제를 푼다.
 
-	>Top-down은 재귀호출을 이용해서 문제를 쉽게 풀수 있다.
+	> Top-down은 재귀호출을 이용해서 문제를 쉽게 풀수 있다.
 		
 		int dp[100];
     	int fibonacci(int n){
@@ -108,7 +111,8 @@ DP Table을 사용한다. 반복될 계산의 값을 구해놓고 이 값을 배
  1. 문제를 크기가 작은 문제부터 차례대로 푼다.
  2. 문제의 크기를 조금씩 크게 만들면서 문제를 점점 푼다.
  3. 작은 문제를 풀면서 왔기때문에, 큰 문제는 항상 풀 수 있다.
-	>반복문을 이용한 풀이 
+ 
+	> 반복문을 이용한 풀이 
 	
 		int dp[100];
 		int fibonacci(int n) {
